@@ -322,6 +322,10 @@ class Paths
 	}
 
 	inline static public function formatToSongPath(path:String) {
+		if(path == "demicroc")
+		{
+			return "demicock";
+		}
 		return path.toLowerCase().replace(' ', '-');
 	}
 
